@@ -1,0 +1,84 @@
+# Header
+menu:
+  ホームページ/Home: /
+  このサイトについて/About Us: /About-us/
+
+# 主页banner图
+banner: /index.jpg
+notice: 服务器已迁移至东京，延迟可能增高
+# notice: 高橋はるき&狐日泽.2022-05.
+
+# 作者信息
+author:
+  name: Nya-WSL
+  avatar: https://nya-wsl.osttsstudio.ltd/nya_wsl/author.jpg
+  description: 代码没写完，哪有脸睡觉
+
+toc:
+  max_depth: 4 # 生成 TOC 的最大深度
+  min_depth: 2 # 生成 TOC 的最小深度
+
+comments:
+  enable: false
+  use: '' # valine || disqus
+  # valine 评论
+  # docs: https://valine.js.org
+  # You can get your appid and appkey from https://leancloud.cn
+  # 这里appId和appKey一定一定要改成自己的，没有的话去https://leancloud.cn这个网站注册创建一个
+  valine:
+    appId: wKNKQ6xM9g258SoWOIq708Ns-9Nh9j0Va
+    appKey: wFYeFlMLUkwPOneb56EWORoS
+    avatar: hide
+    placeholder: We are all stories in the end.
+    notify: true
+    visitor: true
+    pageSize: 10
+  # disqus 评论
+  # docs: https://disqus.com/
+  disqus:
+    website: nya-wsl
+    error: We are all stories in the end.
+
+# dplayer 视频播放
+# docs: http://dplayer.js.org/#/zh-Hans/
+dplayer:
+  enable: true
+  theme: "#1c4587"
+  autoplay: false
+  loop: true
+  mutex: true
+
+# aplayer 音频播放
+# docs: https://aplayer.js.org/#/zh-Hans/
+aplayer:
+  enable: true
+  theme: "#1c4587"
+  autoplay: false
+  loop: true
+  mutex: true
+  lrcType: 3
+
+# 国内备案信息
+beian: 
+
+# 谷歌分析
+google_analytics: G-V0QV2QH739
+# gauges分析
+gauges_analytics: 
+# 百度分析
+baidu_analytics: 
+# 腾讯分析
+tencent_analytics: 
+# 站点ico
+favicon: /favicon.ico
+
+# Social Icon
+social_icon:
+  enable: true
+  icons:
+    ins     :
+    zhihu   :
+    weibo   :
+    github  : https://github.com/nya-wsl/
+    bilibili : https://www.bilibili.com
+    twitter : https://twitter.com/HRK_Takahashi
