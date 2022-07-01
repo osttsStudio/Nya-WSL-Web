@@ -1,4 +1,4 @@
-public/
-node_modules/
+/public
+/node_modules
 #themes/node_modules
 #themes/plubic
