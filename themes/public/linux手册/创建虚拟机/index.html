@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#3367D6"/>
+  <link rel="apple-touch-icon" href="/icons-192.png">
+  <link rel="manifest" href="/manifest.json">
+  
+  <meta name="generator" content="Hexo 6.2.0">
+
+  
+
+  
+
+  
+    <meta name="author" content="高橋はるき &amp; 狐日泽">
+  
+
+  
+
+  
+
+  <title>创建虚拟机 | Nya-WSL</title>
+
+  
+
+  
+    <link rel="shortcut icon" href="/favicon.ico">
+  
+
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@1.1.3/index.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlightjs@9.16.2/styles/monokai.css">
+  
+
+  
+<link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+  <div class="root-container">
+    
+<!-- header container -->
+<header class="header-container">
+  
+    <div class="post-image" style="background-image: url(../Linux.jpg)"></div>
+  
+
+  <!-- navbar -->
+<nav class="navbar">
+  <div class="navbar-content">
+    <!-- logo -->
+    <div class="navbar-logo">
+      <a href="/">
+        
+          Nya-WSL
+        
+      </a>
+    </div>
+    <!-- link -->
+    <div class="navbar-link">
+      <div class="navbar-btn">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <ul class="navbar-list">
+        
+          <li class="navbar-list-item"><a href="/">ホームページ/Home</a></li>
+        
+          <li class="navbar-list-item"><a href="/About-us/">このサイトについて/About Us</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+    <div class="header-content">
+      <div class="post-text layout-block layout-padding">
+        <h1 class="title-wrap">创建虚拟机</h1>
+        
+          <h2 class="title-sub-wrap">使用Vmaware创建一台Ubuntu-21.10虚拟机，完成新建虚拟机向导</h2>
+        
+      </div>
+    </div>
+  
+  
+</header>
+
+    <!-- 分页(其他自定义页面) -->
+
+<!-- 自定义页面 -->
+
+<div class="body-container">
+  <article class="content-container layout-block post-container">
+    <div class="article-info">
+      
+      <section class="article-entry markdown-body layout-margin content-padding--large soft-size--large soft-style--box">
+        <h3 id="1）运行Vmware-Workstation，在主页选择“创建新的虚拟机”，或通过单击“文件-F-”-“新建虚拟机-N-”以进行新建虚拟机向导"><a href="#1）运行Vmware-Workstation，在主页选择“创建新的虚拟机”，或通过单击“文件-F-”-“新建虚拟机-N-”以进行新建虚拟机向导" class="headerlink" title="1）运行Vmware Workstation，在主页选择“创建新的虚拟机”，或通过单击“文件(F)”-“新建虚拟机(N)”以进行新建虚拟机向导"></a>1）运行Vmware Workstation，在主页选择“创建新的虚拟机”，或通过单击“文件(F)”-“新建虚拟机(N)”以进行新建虚拟机向导</h3><p><img src="%E5%9B%BE%E7%89%871.png" alt="图片1"></p>
+<p> 2）选择使用“自定义(高级)(C)”进行配置，点击下一步</p>
+<p><img src="%E5%9B%BE%E7%89%872.png" alt="图片2"></p>
+<p> 3）选择硬件兼容性为“Workstation 16.x”，点击下一步</p>
+<p><img src="%E5%9B%BE%E7%89%873.png" alt="图片3"></p>
+<p>4）选择“稍后安装操作系统(S)”，点击下一步</p>
+<p><img src="%E5%9B%BE%E7%89%874.png" alt="图片4"></p>
+<p>5）选择客户机操作系统为“Linux(L)”,版本为“Ubuntu 64 位”，点击下一步</p>
+<p><img src="%E5%9B%BE%E7%89%875.png" alt="图片5"></p>
+<p> 6）根据个人需要设置“虚拟机名称(V)”，选择虚拟机部署“位置(L)”的目录，点击下一步</p>
+<p><img src="%E5%9B%BE%E7%89%876.png" alt="图片6"></p>
+<p>7）根据个人的电脑性能，为虚拟机分配处理器数量。此步骤建议图形化安装时不低于1个处理器及2个内核数，点击下一步</p>
+<p><strong>只有至少具有两个逻辑处理器的主机才支持指定多个虚拟处理器，启用了超线程或具有双核 CPU 的单处理器主机可视为具有两个逻辑处理器。具有两个 CPU 的多处理器主机无论是否为双核处理器或是否启用了超线程，均视为至少具有两个逻辑处理器</strong></p>
+<p><strong>对于主要运行 Office 和 Internet 办公应用程序的 Windows 虚拟机来说，使用多个虚拟处理器不会带来优势，因此，使用单个虚拟处理器的默认设置较为理想。对于服务器工作负载和数据密集型计算应用程序，添加额外的虚拟处理器可以提高应用程序的性能</strong></p>
+<p><strong>一个CPU有多个内核(常见的有:单核/双核/四核/六核/八核)，一个内核一般对应一个线程。但通过超线程技术，一个核心可以对应两个线程，即可以同时运行两个线程，并行处理两个任务</strong></p>
+<p><strong>下表为建议的处理器数量，可供参考</strong></p>
+<table>
+<thead>
+<tr>
+<th>应用程序</th>
+<th>建议的处理器数量</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>桌面应用程序</td>
+<td>1 个处理器</td>
+</tr>
+<tr>
+<td>服务器操作系统</td>
+<td>2 个处理器</td>
+</tr>
+<tr>
+<td>视频编码、建模和科学运算</td>
+<td>4 个处理器</td>
+</tr>
+</tbody></table>
+<p><img src="%E5%9B%BE%E7%89%877.png" alt="图片7"></p>
+<h3 id="8）根据个人的电脑性能，为虚拟机分配内存大小。此步骤建议图形化安装时设置不低于2048MB的内存，点击下一步"><a href="#8）根据个人的电脑性能，为虚拟机分配内存大小。此步骤建议图形化安装时设置不低于2048MB的内存，点击下一步" class="headerlink" title="8）根据个人的电脑性能，为虚拟机分配内存大小。此步骤建议图形化安装时设置不低于2048MB的内存，点击下一步"></a>8）根据个人的电脑性能，为虚拟机分配内存大小。此步骤建议图形化安装时设置不低于2048MB的内存，点击下一步</h3><p><img src="%E5%9B%BE%E7%89%878.png" alt="图片8"></p>
+<h3 id="9）选择网络连接模式为“使用网络地址转换-NAT-E-”，点击下一步"><a href="#9）选择网络连接模式为“使用网络地址转换-NAT-E-”，点击下一步" class="headerlink" title="9）选择网络连接模式为“使用网络地址转换(NAT)(E)”，点击下一步"></a>9）选择网络连接模式为“使用网络地址转换(NAT)(E)”，点击下一步</h3><p><img src="%E5%9B%BE%E7%89%879.png" alt="图片9"></p>
+<h3 id="10）选择I-O控制器类型为“LSI-Logic-L-”用于SCSI虚拟磁盘，点击下一步"><a href="#10）选择I-O控制器类型为“LSI-Logic-L-”用于SCSI虚拟磁盘，点击下一步" class="headerlink" title="10）选择I/O控制器类型为“LSI Logic(L)”用于SCSI虚拟磁盘，点击下一步"></a>10）选择I/O控制器类型为“LSI Logic(L)”用于SCSI虚拟磁盘，点击下一步</h3><p><img src="%E5%9B%BE%E7%89%8710.png" alt="图片10"></p>
+<h3 id="11）选择磁盘类型为”SCSI-S-”，点击下一步"><a href="#11）选择磁盘类型为”SCSI-S-”，点击下一步" class="headerlink" title="11）选择磁盘类型为”SCSI(S)”，点击下一步"></a>11）选择磁盘类型为”SCSI(S)”，点击下一步</h3><p><img src="%E5%9B%BE%E7%89%8711.png" alt="图片11"></p>
+<h3 id="12）选择“创建新虚拟磁盘-V-”，点击下一步"><a href="#12）选择“创建新虚拟磁盘-V-”，点击下一步" class="headerlink" title="12）选择“创建新虚拟磁盘(V)”，点击下一步"></a>12）选择“创建新虚拟磁盘(V)”，点击下一步</h3><p><img src="%E5%9B%BE%E7%89%8712.png" alt="图片12"></p>
+<h3 id="13）根据个人的电脑性能，为虚拟机分配磁盘大小。此步骤建议图形化安装时设置不低于40GB磁盘大小，并选择”将虚拟磁盘存储为单个文件-O-”，点击下一步"><a href="#13）根据个人的电脑性能，为虚拟机分配磁盘大小。此步骤建议图形化安装时设置不低于40GB磁盘大小，并选择”将虚拟磁盘存储为单个文件-O-”，点击下一步" class="headerlink" title="13）根据个人的电脑性能，为虚拟机分配磁盘大小。此步骤建议图形化安装时设置不低于40GB磁盘大小，并选择”将虚拟磁盘存储为单个文件(O)”，点击下一步"></a>13）根据个人的电脑性能，为虚拟机分配磁盘大小。此步骤建议图形化安装时设置不低于40GB磁盘大小，并选择”将虚拟磁盘存储为单个文件(O)”，点击下一步</h3><p><img src="%E5%9B%BE%E7%89%8713.png" alt="图片13"></p>
+<h3 id="14）根据个人需要设置“磁盘文件-F-”，点击下一步"><a href="#14）根据个人需要设置“磁盘文件-F-”，点击下一步" class="headerlink" title="14）根据个人需要设置“磁盘文件(F)”，点击下一步"></a>14）根据个人需要设置“磁盘文件(F)”，点击下一步</h3><p><img src="%E5%9B%BE%E7%89%8714.png" alt="图片14"></p>
+<h3 id="15）确认新建虚拟机设置无误，点击完成以结束新建虚拟机向导"><a href="#15）确认新建虚拟机设置无误，点击完成以结束新建虚拟机向导" class="headerlink" title="15）确认新建虚拟机设置无误，点击完成以结束新建虚拟机向导"></a>15）确认新建虚拟机设置无误，点击完成以结束新建虚拟机向导</h3><p><img src="%E5%9B%BE%E7%89%8715.png" alt="图片15"></p>
+<h2 id="2-挂载安装程序光盘映像文件"><a href="#2-挂载安装程序光盘映像文件" class="headerlink" title="*2.挂载安装程序光盘映像文件*"></a><em><strong>*2.挂载安装程序光盘映像文件*</strong></em></h2><h3 id="1）在“我的计算机”中找到新建的虚拟机，单击后选择“编辑虚拟机设置”，或用右键单击虚拟机名称，选择“设置-S-…”"><a href="#1）在“我的计算机”中找到新建的虚拟机，单击后选择“编辑虚拟机设置”，或用右键单击虚拟机名称，选择“设置-S-…”" class="headerlink" title="1）在“我的计算机”中找到新建的虚拟机，单击后选择“编辑虚拟机设置”，或用右键单击虚拟机名称，选择“设置(S)…”"></a>1）在“我的计算机”中找到新建的虚拟机，单击后选择“编辑虚拟机设置”，或用右键单击虚拟机名称，选择“设置(S)…”<img src="%E5%9B%BE%E7%89%8716.png" alt="图片16"></h3><h3 id="2）选择“CD-DVD-SATA-”，在连接中选择“使用ISO映像文件-M-”，单击“浏览-B-…”"><a href="#2）选择“CD-DVD-SATA-”，在连接中选择“使用ISO映像文件-M-”，单击“浏览-B-…”" class="headerlink" title="2）选择“CD/DVD(SATA)”，在连接中选择“使用ISO映像文件(M)”，单击“浏览(B)…”"></a>2）选择“CD/DVD(SATA)”，在连接中选择“使用ISO映像文件(M)”，单击“浏览(B)…”</h3><p><img src="%E5%9B%BE%E7%89%8717.png" alt="图片17"></p>
+<h3 id="3）进入之前下载镜像的保存路径，选中下载好的镜像文件，单击“打开”"><a href="#3）进入之前下载镜像的保存路径，选中下载好的镜像文件，单击“打开”" class="headerlink" title="3）进入之前下载镜像的保存路径，选中下载好的镜像文件，单击“打开”"></a>3）进入之前下载镜像的保存路径，选中下载好的镜像文件，单击“打开”</h3><p><img src="%E5%9B%BE%E7%89%8718.png" alt="图片18"></p>
+<h3 id="4）确认镜像文件选择正确，单击“确定”"><a href="#4）确认镜像文件选择正确，单击“确定”" class="headerlink" title="4）确认镜像文件选择正确，单击“确定”"></a>4）确认镜像文件选择正确，单击“确定”</h3><p><img src="%E5%9B%BE%E7%89%8719.png" alt="图片19"></p>
+<h3 id="5）单击“开启此虚拟机”"><a href="#5）单击“开启此虚拟机”" class="headerlink" title="5）单击“开启此虚拟机”"></a>5）单击“开启此虚拟机”</h3><p><img src="%E5%9B%BE%E7%89%8720.png" alt="图片20"></p>
+<h2 id="4-完成系统部署引导"><a href="#4-完成系统部署引导" class="headerlink" title="*4.完成系统部署引导*"></a><em><strong>*4.完成系统部署引导*</strong></em></h2><h3 id="1）等待进入GNU-GRUB启动引导程序，单击画面，使用“↑”与“↓”键移动至“Ubuntu”，按“Enter”键以进入安装引导"><a href="#1）等待进入GNU-GRUB启动引导程序，单击画面，使用“↑”与“↓”键移动至“Ubuntu”，按“Enter”键以进入安装引导" class="headerlink" title="1）等待进入GNU GRUB启动引导程序，单击画面，使用“↑”与“↓”键移动至“Ubuntu”，按“Enter”键以进入安装引导"></a>1）等待进入GNU GRUB启动引导程序，单击画面，使用“↑”与“↓”键移动至“Ubuntu”，按“Enter”键以进入安装引导</h3><h3 id="在引导程序中，在自动读秒结束后会默认进入高亮选项，也就是进入“Ubuntu”进行安装引导"><a href="#在引导程序中，在自动读秒结束后会默认进入高亮选项，也就是进入“Ubuntu”进行安装引导" class="headerlink" title="在引导程序中，在自动读秒结束后会默认进入高亮选项，也就是进入“Ubuntu”进行安装引导"></a><strong>在引导程序中，在自动读秒结束后会默认进入高亮选项，也就是进入“Ubuntu”进行安装引导</strong></h3><h3 id="如在无图形化界面中想要释放鼠标，可按“Ctrl”-“Alt”进行释放"><a href="#如在无图形化界面中想要释放鼠标，可按“Ctrl”-“Alt”进行释放" class="headerlink" title="如在无图形化界面中想要释放鼠标，可按“Ctrl”+“Alt”进行释放"></a><strong>如在无图形化界面中想要释放鼠标，可按“Ctrl”+“Alt”进行释放</strong></h3><p><img src="%E5%9B%BE%E7%89%8721.png" alt="图片21"></p>
+<h3 id="2）等待进入Ubuntu安装欢迎界面，按个人需要选择系统语言，此步骤建议选择默认的英语“English”，单击“Install-Ubuntu”以进行安装部署"><a href="#2）等待进入Ubuntu安装欢迎界面，按个人需要选择系统语言，此步骤建议选择默认的英语“English”，单击“Install-Ubuntu”以进行安装部署" class="headerlink" title="2）等待进入Ubuntu安装欢迎界面，按个人需要选择系统语言，此步骤建议选择默认的英语“English”，单击“Install Ubuntu”以进行安装部署"></a>2）等待进入Ubuntu安装欢迎界面，按个人需要选择系统语言，此步骤建议选择默认的英语“English”，单击“Install Ubuntu”以进行安装部署</h3><p><strong>为了更好的使用及学习Linux系统的目录结构、功能与特性等，系统语言尽量选择为英语“English”</strong></p>
+<p><img src="%E5%9B%BE%E7%89%8722.png" alt="图片22"></p>
+<h3 id="3）按个人需要设置键盘布局，此步骤建议选择默认的英语-美国-“English-US-”，点击“Continue”"><a href="#3）按个人需要设置键盘布局，此步骤建议选择默认的英语-美国-“English-US-”，点击“Continue”" class="headerlink" title="3）按个人需要设置键盘布局，此步骤建议选择默认的英语(美国)“English(US)”，点击“Continue”"></a>3）按个人需要设置键盘布局，此步骤建议选择默认的英语(美国)“English(US)”，点击“Continue”</h3><p><strong>选择中文“Chinese”的键盘布局与英语(美国)“English(US)”无区别</strong></p>
+<p><img src="%E5%9B%BE%E7%89%8723.png" alt="图片23"></p>
+<h3 id="4）选择正常安装“Normal-Installation”，同时选择在安装Ubuntu时下载更新“Download-updates-while-installing-Ubuntu”，点击“Continue”"><a href="#4）选择正常安装“Normal-Installation”，同时选择在安装Ubuntu时下载更新“Download-updates-while-installing-Ubuntu”，点击“Continue”" class="headerlink" title="4）选择正常安装“Normal Installation”，同时选择在安装Ubuntu时下载更新“Download updates while installing Ubuntu”，点击“Continue”"></a>4）选择正常安装“Normal Installation”，同时选择在安装Ubuntu时下载更新“Download updates while installing Ubuntu”，点击“Continue”</h3><p><strong>最小安装“Minimal Installation”为无图形化安装，如果虚拟机无网络，可以取消选择在安装Ubuntu时下载更新</strong></p>
+<p><img src="%E5%9B%BE%E7%89%8724.png" alt="图片24"></p>
+<h3 id="5）选择安装类型为清除整个磁盘并安装Ubuntu“Erase-disk-and-install-Ubuntu”，点击“Install-now”"><a href="#5）选择安装类型为清除整个磁盘并安装Ubuntu“Erase-disk-and-install-Ubuntu”，点击“Install-now”" class="headerlink" title="5）选择安装类型为清除整个磁盘并安装Ubuntu“Erase disk and install Ubuntu”，点击“Install now”"></a>5）选择安装类型为清除整个磁盘并安装Ubuntu“Erase disk and install Ubuntu”，点击“Install now”</h3><p><strong>如果熟悉Linux系统的逻辑卷管理与磁盘格式文件系统，可以使用高级特性…“Advanced features…”或其他选项“Something Else”进行自定义设置</strong></p>
+<p><img src="%E5%9B%BE%E7%89%8725.png" alt="图片25"></p>
+<h3 id="6）确认磁盘分区设置，点击“Continue”"><a href="#6）确认磁盘分区设置，点击“Continue”" class="headerlink" title="6）确认磁盘分区设置，点击“Continue”"></a>6）确认磁盘分区设置，点击“Continue”</h3><p><img src="%E5%9B%BE%E7%89%8726.png" alt="图片26"></p>
+<h3 id="7）选择地区为上海“Shanghai”，可以在输入框中输入，或者点击地图对应位置，点击“Continue”"><a href="#7）选择地区为上海“Shanghai”，可以在输入框中输入，或者点击地图对应位置，点击“Continue”" class="headerlink" title="7）选择地区为上海“Shanghai”，可以在输入框中输入，或者点击地图对应位置，点击“Continue”"></a>7）选择地区为上海“Shanghai”，可以在输入框中输入，或者点击地图对应位置，点击“Continue”</h3><p><img src="%E5%9B%BE%E7%89%8727.png" alt="图片27"></p>
+<h3 id="8）设置你的姓名“Your-Name”"><a href="#8）设置你的姓名“Your-Name”" class="headerlink" title="8）设置你的姓名“Your Name”"></a>8）设置你的姓名“Your Name”</h3><p>安装引导将自动生成您的计算机名“Your computer’s name”与选择一个用户名“Pick a username”，亦可根据个人需要进行修改，同时选择一个密码“Choose a password”，并确认您的密码“Confirm your password”。选择登录时需要密码“Require my password to log in”，点击“Continue”</p>
+<p><img src="%E5%9B%BE%E7%89%8728.png" alt="图片28"></p>
+<h3 id="9）安装程序启动，等待安装完成"><a href="#9）安装程序启动，等待安装完成" class="headerlink" title="9）安装程序启动，等待安装完成"></a>9）安装程序启动，等待安装完成</h3><p><strong>图形化安装时间大约在10-20分钟。根据电脑性能，安装时间可能会更快或更长</strong></p>
+<p><img src="%E5%9B%BE%E7%89%8729.png" alt="图片29"></p>
+<h3 id="10）安装完成后，系统自动弹出重启确认界面，单击“Restart-Now”"><a href="#10）安装完成后，系统自动弹出重启确认界面，单击“Restart-Now”" class="headerlink" title="10）安装完成后，系统自动弹出重启确认界面，单击“Restart Now”"></a>10）安装完成后，系统自动弹出重启确认界面，单击“Restart Now”</h3><p><img src="%E5%9B%BE%E7%89%8730.png" alt="图片30"></p>
+<h3 id="11）右键左下角的光碟图标，选择“断开连接-D-”以移除安装介质，并按“Enter”键，或等待自动移除安装介质后进入系统"><a href="#11）右键左下角的光碟图标，选择“断开连接-D-”以移除安装介质，并按“Enter”键，或等待自动移除安装介质后进入系统" class="headerlink" title="11）右键左下角的光碟图标，选择“断开连接(D)”以移除安装介质，并按“Enter”键，或等待自动移除安装介质后进入系统"></a>11）右键左下角的光碟图标，选择“断开连接(D)”以移除安装介质，并按“Enter”键，或等待自动移除安装介质后进入系统</h3><p><img src="%E5%9B%BE%E7%89%8731.png" alt="图片31"></p>
+<h2 id="5-进行最后设置"><a href="#5-进行最后设置" class="headerlink" title="*5.进行最后设置*"></a><em><strong>*5.进行最后设置*</strong></em></h2><p>1）点击用户，输入密码后“Enter”键登录</p>
+<p><img src="%E5%9B%BE%E7%89%8732.png" alt="图片32"></p>
+<p>2）单击“Skip”跳过连接在线账户</p>
+<p><img src="%E5%9B%BE%E7%89%8733.png" alt="图片33"></p>
+<p>3）关闭定位服务“Location Services”，单击“Next”</p>
+<p><img src="%E5%9B%BE%E7%89%8734.png" alt="图片34"></p>
+<p>4）根据个人需要，选择是否帮助Ubuntu改进，如不需要则选择“No,don’t send system info”，点击“Next”</p>
+<p><img src="%E5%9B%BE%E7%89%8735.png" alt="图片35"></p>
+<p>5）部署配置已完成，点击“Done”退出最后设置引导</p>
+<p><img src="%E5%9B%BE%E7%89%8737.png" alt="图片37"></p>
+<h3 id="返回目录-Linux初级指导教程"><a href="#返回目录-Linux初级指导教程" class="headerlink" title="返回目录-Linux初级指导教程"></a><a target="_blank" rel="noopener" href="https://nya-wsl.com/Linux%E5%88%9D%E7%BA%A7%E6%8C%87%E5%AF%BC%E6%95%99%E7%A8%8B/">返回目录-Linux初级指导教程</a></h3>
+      </section>
+
+      
+      
+
+      
+      
+    </div>
+    <div class="widget-info">
+      <section class="widget-author widget-item layout-margin content-padding--primary soft-size--large soft-style--box">
+  <div class="widget-body">
+    
+      <img src="https://nya-wsl.osttsstudio.ltd/nya_wsl/author.jpg" class="soft-size--round soft-style--box" alt="Nya-WSL">
+    
+    
+      <h2>Nya-WSL</h2>
+    
+    
+      <p>代码没写完，哪有脸睡觉</p>
+    
+
+    <div class="count-box">
+      <div class="count-box--item">
+        <svg class="icon icon-article" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <path d="M240.51564747 647.74217627h196.07203239c16.59071043 0 30.16492806-13.57421762 30.16492805-30.16492806V165.10332731c0-33.18142087-30.16492806-60.32985613-60.32985612-60.32985611H245.04038668C225.43318342 104.7734712 210.35071939 119.85593522 210.35071939 139.46313845V617.57724821c0 16.59071043 13.57421762 30.16492806 30.16492808 30.16492806z m663.62841731-452.47392089v482.63884894c0 33.18142087-27.14843525 60.32985613-60.32985612 60.32985613H180.18579134c-33.18142087 0-60.32985613-27.14843525-60.32985612-60.32985613V195.26825538c-49.77213131 0-90.49478418 40.72265287-90.49478417 90.49478417v452.4739209c0 49.77213131 40.72265287 90.49478418 90.49478417 90.49478417h286.56681657c16.59071043 0 30.16492806 13.57421762 30.16492807 30.16492807s13.57421762 30.16492806 30.16492805 30.16492806h90.49478418c16.59071043 0 30.16492806-13.57421762 30.16492805-30.16492806s13.57421762-30.16492806 30.16492807-30.16492807h286.56681657c49.77213131 0 90.49478418-40.72265287 90.49478417-90.49478417V285.76303955c0-49.77213131-40.72265287-90.49478418-90.49478417-90.49478417zM587.41232014 647.74217627h191.54729318c19.60720323 0 34.68966726-15.08246403 34.68966729-34.68966727V134.93839925c0-16.59071043-13.57421762-30.16492806-30.16492808-30.16492805H617.57724821c-30.16492806 0-60.32985613 27.14843525-60.32985612 60.32985611v452.4739209c0 16.59071043 13.57421762 30.16492806 30.16492805 30.16492806z" fill="currentColor"></path>
+</svg>
+        <span>4</span>
+      </div>
+      <div class="count-box--item">
+        <svg class="icon icon-categories" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <path d="M900.3614811 257.09082106h-339.81629553l-67.96326003-101.9448889c-19.41807444-29.12711113-48.54518557-43.69066667-82.52681443-43.69066667H123.6385189c-53.39970333 0-97.09036999 43.69066667-97.09037113 97.09036999v582.54222222c0 53.39970333 43.69066667 97.09036999 97.09037113 97.09037002h776.7229622c53.39970333 0 97.09036999-43.69066667 97.09037113-97.09037002V354.18119104c0-53.39970333-43.69066667-97.09036999-97.09037113-97.09036998z m-97.09036999 242.72592554H220.72888889c-24.27259221 0-48.54518557-24.27259221-48.54518556-48.54518556s24.27259221-48.54518557 48.54518556-48.54518444h582.54222222c24.27259221 0 48.54518557 24.27259221 48.54518556 48.54518444s-24.27259221 48.54518557-48.54518556 48.54518556z" fill="currentColor"></path>
+</svg>
+        5
+      </div>
+      <div class="count-box--item">
+        <svg class="icon icon-tags" viewBox="0 0 1098 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <path d="M283.42180005 272q0-28.38857157-20.09142843-48.48000001t-48.47999998-20.09142842-48.48000002 20.09142842-20.09142846 48.48000001 20.09142846 48.48 48.48000002 20.09142843 48.47999998-20.09142843 20.09142843-48.48zM855.0332285 580.57142843q0 28.38857157-19.81714313 48.2057147l-263.03999997 263.58857157q-20.9142853 19.81714313-48.75428534 19.81714312-28.38857157 0-48.20571468-19.81714312l-383.04-383.58857157q-20.36571468-19.81714313-34.55999999-54.10285688t-14.19428534-62.6742853l0-222.85714313q0-27.84000002 20.36571469-48.20571469t48.2057147-20.36571466l222.85714313 0q28.38857157 0 62.6742853 14.19428529t54.65142842 34.55999999l383.04000001 382.49142843q19.81714313 20.9142853 19.81714314 48.75428532zM1060.74751475 580.57142843q0 28.38857157-19.81714313 48.2057147l-263.04 263.58857157q-20.9142853 19.81714313-48.75428531 19.81714312-19.26857155 0-31.61142843-7.47428531t-28.38857159-24.13714314l251.79428534-251.7942853q19.81714313-19.81714313 19.81714308-48.20571469 0-27.84000002-19.81714308-48.75428531l-383.04000001-382.49142845q-20.36571468-20.36571468-54.65142842-34.55999999t-62.67428532-14.19428534l120 0q28.38857157 0 62.67428532 14.19428534t54.65142842 34.55999999l383.03999998 382.49142845q19.81714313 20.9142853 19.81714314 48.75428531z" fill="currentColor"></path>
+</svg>
+        3
+      </div>
+    </div>
+  </div>
+</section>
+
+      
+<section class="widet-notice widget-item layout-margin content-padding--primary soft-size--large soft-style--box">
+  <div class="widget-title">
+    <svg t="icon icon-notice" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<path d="M192 736 192 416C192 261.184 301.952 132.064 448 102.4L448 64C448 28.64 476.64 0 512 0 547.36 0 576 28.64 576 64L576 102.4C722.048 132.064 832 261.184 832 416L832 736 864.096 736C899.392 736 928 764.416 928 800 928 835.36 899.36 864 864.096 864L159.904 864C124.608 864 96 835.584 96 800 96 764.64 124.64 736 159.904 736L192 736ZM608 928C608 981.024 565.024 1024 512 1024 458.976 1024 416 981.024 416 928L608 928Z" fill="currentColor"></path>
+</svg>
+    <span>告知 Notice</span>
+  </div>
+  <div class="widget-body">
+    <p>服务器已迁移至东京，延迟可能增高</p>
+  </div>
+</section>
+
+
+      <section class="widget-categorys widget-item layout-margin content-padding--primary soft-size--large soft-style--box">
+  <div class="widget-title">
+    <svg class="icon icon-categories" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <path d="M900.3614811 257.09082106h-339.81629553l-67.96326003-101.9448889c-19.41807444-29.12711113-48.54518557-43.69066667-82.52681443-43.69066667H123.6385189c-53.39970333 0-97.09036999 43.69066667-97.09037113 97.09036999v582.54222222c0 53.39970333 43.69066667 97.09036999 97.09037113 97.09037002h776.7229622c53.39970333 0 97.09036999-43.69066667 97.09037113-97.09037002V354.18119104c0-53.39970333-43.69066667-97.09036999-97.09037113-97.09036998z m-97.09036999 242.72592554H220.72888889c-24.27259221 0-48.54518557-24.27259221-48.54518556-48.54518556s24.27259221-48.54518557 48.54518556-48.54518444h582.54222222c24.27259221 0 48.54518557 24.27259221 48.54518556 48.54518444s-24.27259221 48.54518557-48.54518556 48.54518556z" fill="currentColor"></path>
+</svg>
+    <span>種類 Category</span>
+  </div>
+  <div class="widget-body">
+    <ul class="categorys-list">
+      
+        <li class="categorys-list-item">
+          <a href="/categories/%E8%BD%AF%E4%BB%B6-%E6%8F%92%E4%BB%B6/">
+            软件/插件 (1)
+          </a>
+        </li>
+      
+        <li class="categorys-list-item">
+          <a href="/categories/%E8%BD%AF%E4%BB%B6-%E6%8F%92%E4%BB%B6/%E5%BF%AB%E9%80%9F%E8%84%9A%E6%9C%AC/">
+            快速脚本 (1)
+          </a>
+        </li>
+      
+        <li class="categorys-list-item">
+          <a href="/categories/%E6%95%99%E7%A8%8B/">
+            教程 (1)
+          </a>
+        </li>
+      
+        <li class="categorys-list-item">
+          <a href="/categories/%E6%9C%8D%E5%8A%A1/">
+            服务 (1)
+          </a>
+        </li>
+      
+        <li class="categorys-list-item">
+          <a href="/categories/Linux/">
+            Linux (2)
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+</section>
+
+      <section class="widget-tags widget-item  layout-margin content-padding--primary soft-size--large soft-style--box">
+  <div class="widget-title">
+    <svg class="icon icon-tags" viewBox="0 0 1098 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <path d="M283.42180005 272q0-28.38857157-20.09142843-48.48000001t-48.47999998-20.09142842-48.48000002 20.09142842-20.09142846 48.48000001 20.09142846 48.48 48.48000002 20.09142843 48.47999998-20.09142843 20.09142843-48.48zM855.0332285 580.57142843q0 28.38857157-19.81714313 48.2057147l-263.03999997 263.58857157q-20.9142853 19.81714313-48.75428534 19.81714312-28.38857157 0-48.20571468-19.81714312l-383.04-383.58857157q-20.36571468-19.81714313-34.55999999-54.10285688t-14.19428534-62.6742853l0-222.85714313q0-27.84000002 20.36571469-48.20571469t48.2057147-20.36571466l222.85714313 0q28.38857157 0 62.6742853 14.19428529t54.65142842 34.55999999l383.04000001 382.49142843q19.81714313 20.9142853 19.81714314 48.75428532zM1060.74751475 580.57142843q0 28.38857157-19.81714313 48.2057147l-263.04 263.58857157q-20.9142853 19.81714313-48.75428531 19.81714312-19.26857155 0-31.61142843-7.47428531t-28.38857159-24.13714314l251.79428534-251.7942853q19.81714313-19.81714313 19.81714308-48.20571469 0-27.84000002-19.81714308-48.75428531l-383.04000001-382.49142845q-20.36571468-20.36571468-54.65142842-34.55999999t-62.67428532-14.19428534l120 0q28.38857157 0 62.67428532 14.19428534t54.65142842 34.55999999l383.03999998 382.49142845q19.81714313 20.9142853 19.81714314 48.75428531z" fill="currentColor"></path>
+</svg>
+    <span>タグ Tag</span>
+  </div>
+  <div class="widget-body">
+    <div class="tags-cloud">
+      <a href="/tags/Linux/" style="font-size: 10px;" class="tags-cloud-0">Linux</a> <a href="/tags/N2N/" style="font-size: 10px;" class="tags-cloud-0">N2N</a> <a href="/tags/%E8%99%9A%E6%8B%9F%E5%8C%96/" style="font-size: 10px;" class="tags-cloud-0">虚拟化</a>
+    </div>
+  </div>
+</section>
+    </div>
+  </article>
+</div>
+
+
+    <!-- footer container -->
+<footer id="footer" class="footer">
+  <div class="footer-container">
+    
+    <div class="social-icons">
+      
+        
+      
+        
+      
+        
+      
+        
+          <a href="https://github.com/nya-wsl/" class="soft-size--primary soft-style--box" target="_blank" rel="noopener noreferrer">
+            <svg class="icon icon-github" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <path d="M64.6 512c0 195.6 125.4 361.9 300.1 422.9 23.5 5.9 19.9-10.8 19.9-22.2v-77.6c-135.8 15.9-141.3-74-150.5-89-18.5-31.5-61.9-39.5-49-54.5 31-15.9 62.5 4 98.9 58 26.4 39.1 77.9 32.5 104.1 26 5.7-23.5 17.9-44.5 34.7-60.9-140.7-25.2-199.4-111.1-199.4-213.3 0-49.5 16.4-95.1 48.4-131.8-20.4-60.6 1.9-112.4 4.9-120.1 58.2-5.2 118.5 41.6 123.3 45.3 33.1-8.9 70.8-13.7 112.9-13.7 42.4 0 80.3 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.4-43.9 2.9 7.7 24.7 58.3 5.5 118.1 32.5 36.8 49 82.8 49 132.4 0 102.3-59 188.3-200.2 213.2 23.5 23.3 38.1 55.5 38.1 91.1v112.7c0.8 9 0 17.9 15.1 17.9C832.7 877 960.4 709.4 960.4 512.1c0-247.5-200.6-447.9-447.9-447.9C265 64.1 64.6 264.5 64.6 512z"></path>
+</svg>
+          </a>
+        
+      
+        
+          <a href="https://www.bilibili.com" class="soft-size--primary soft-style--box" target="_blank" rel="noopener noreferrer">
+            <svg t="1651590699582" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<path d="M868.93 171.112H697.817l77.535-77.535c13.369-13.368 13.369-32.084 0-45.452s-32.083-13.368-45.451 0L598.893 179.133H470.559L339.55 48.125c-10.695-13.368-26.736-16.041-42.778-8.02-2.674 0-2.674 2.673-5.347 5.347-13.369 13.368-13.369 32.083 0 45.451l80.208 80.21H200.522c-93.577 0-171.112 77.535-171.112 171.112v425.107c0 90.903 77.535 168.438 171.112 168.438h26.736c0 32.084 26.737 56.146 56.147 56.146s56.146-26.736 56.146-56.146h395.697c2.674 32.084 29.41 56.146 61.494 53.473 29.41-2.674 50.798-24.063 53.472-53.473h21.39c93.576 0 171.111-77.535 171.111-171.112V339.551c-2.673-93.577-80.208-168.439-173.785-168.439zM863.582 831.5H211.217c-34.757 0-61.494-29.41-64.167-64.167l-2.674-433.128c0-34.758 29.41-64.167 64.167-64.167H860.91c34.757 0 61.493 29.41 64.167 64.167l2.673 433.128c-2.673 37.43-29.41 64.167-64.167 64.167z"></path><path d="M422.433 417.086l16.042 80.209-213.89 40.104-16.042-80.208 213.89-40.105z m205.87 80.209l16.042-80.209 213.89 40.105-16.042 80.208-213.89-40.104z m42.778 168.439c0 2.673 0 8.02-2.674 10.694-13.368 29.41-42.778 48.126-77.535 50.8-21.389 0-42.778-10.695-56.146-26.737-16.042 16.042-34.757 26.736-56.146 26.736-32.084-2.673-61.494-21.389-77.536-50.799 0-2.673-2.673-5.347-2.673-10.694 0-10.695 8.02-18.716 18.715-21.39h2.674c8.02 0 13.368 2.674 16.042 10.695 0 0 21.389 29.41 40.104 29.41 37.43 0 37.43-32.083 58.82-56.146 24.063 26.736 24.063 56.146 58.82 56.146 24.062 0 40.104-29.41 40.104-29.41 2.674-5.347 10.695-10.694 16.042-10.694 10.694-2.674 18.715 5.347 21.389 16.041v5.348z"></path>
+</svg>
+          </a>
+        
+      
+        
+          <a href="https://twitter.com/HRK_Takahashi" class="soft-size--primary soft-style--box" target="_blank" rel="noopener noreferrer">
+            <svg class="icon icon-twitter" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <path d="M962.285714 233.142857q-38.285714 56-92.571429 95.428571 0.571429 8 0.571429 24 0 74.285714-21.714286 148.285714t-66 142-105.428571 120.285714-147.428571 83.428571-184.571429 31.142857q-154.857143 0-283.428571-82.857143 20 2.285714 44.571429 2.285714 128.571429 0 229.142857-78.857143-60-1.142857-107.428571-36.857143t-65.142857-91.142857q18.857143 2.857143 34.857143 2.857143 24.571429 0 48.571429-6.285714-64-13.142857-106-63.714286t-42-117.428571l0-2.285714q38.857143 21.714286 83.428571 23.428571-37.714286-25.142857-60-65.714286t-22.285714-88q0-50.285714 25.142857-93.142857 69.142857 85.142857 168.285714 136.285714t212.285714 56.857143q-4.571429-21.714286-4.571429-42.285714 0-76.571429 54-130.571429t130.571429-54q80 0 134.857143 58.285714 62.285714-12 117.142857-44.571429-21.142857 65.714286-81.142857 101.714286 53.142857-5.714286 106.285714-28.571429z"></path>
+</svg>
+          </a>
+        
+      
+    </div>
+     
+    <p>&copy; 2022 <a href="/" target="_blank">高橋はるき &amp; 狐日泽</a></p>
+
+    
+
+    <p>Powered by <a href="https://www.nginx.com/" target="_blank" rel="noopener noreferrer">Nginx</a> & <a href="https://hexo.io" target="_blank" rel="noopener noreferrer">Hexo</a> | Theme - <a href="https://github.com/miiiku/flex-block" target="_blank" rel="noopener noreferrer author">flex-block</a></p>
+
+    <p>
+      <a href="javascript:;" id="theme-light">[Light]</a>
+      <a href="javascript:;" id="theme-dark">[Dark]</a>
+      <a href="javascript:;" id="theme-auto">[Automatic]</a>
+    </p>
+  </div>
+</footer>
+  </div>
+
+  <div class="back-to-top-fixed soft-size--round soft-style--box">
+    <svg class="icon icon-back-to-top" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+      <path d="M725.333333 426.666667c-12.8 0-21.333333-4.266667-29.866667-12.8l-213.333333-213.333333c-17.066667-17.066667-17.066667-42.666667 0-59.733333s42.666667-17.066667 59.733333 0l213.333333 213.333333c17.066667 17.066667 17.066667 42.666667 0 59.733333C746.666667 422.4 738.133333 426.666667 725.333333 426.666667z"></path>
+      <path d="M298.666667 426.666667c-12.8 0-21.333333-4.266667-29.866667-12.8-17.066667-17.066667-17.066667-42.666667 0-59.733333l213.333333-213.333333c17.066667-17.066667 42.666667-17.066667 59.733333 0s17.066667 42.666667 0 59.733333l-213.333333 213.333333C320 422.4 311.466667 426.666667 298.666667 426.666667z"></path>
+      <path d="M512 896c-25.6 0-42.666667-17.066667-42.666667-42.666667L469.333333 170.666667c0-25.6 17.066667-42.666667 42.666667-42.666667s42.666667 17.066667 42.666667 42.666667l0 682.666667C554.666667 878.933333 537.6 896 512 896z"></path>
+    </svg>
+  </div>
+
+  
+  <!-- aplayer -->
+
+
+<!-- dplayer -->
+
+
+
+
+  
+
+
+  <!-- Google Analytics START -->
+  <script type="text/javascript">
+    (function() {
+      if (window.location.hostname === "localhost" || window.location.hostname.startsWith("192.168")) {
+        return console.log("本地调试");
+      }
+
+      window.dataLayer = window.dataLayer || [];
+      
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+
+      let script = document.createElement("script")
+
+      script.onload = function() {
+        gtag('js', new Date());
+        gtag('config', "G-V0QV2QH739");
+      }
+
+      script.src = "https://www.googletagmanager.com/gtag/js?id=G-V0QV2QH739"
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(script, s);
+    })()
+  </script>
+  <!-- Google Analytics End -->
+
+  
+
+
+  
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+  
+  <!-- 尾部用户自定义相关内容 -->
+</body>
+</html>
