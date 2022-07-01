@@ -1,10 +1,9 @@
 ---
-title: N2N-Client(Based on Python)
+title: N2N-Client
 cover: https://pbs.twimg.com/media/FONK8zZVUAUu7Lu?format=jpg&name=large
 toc: 1
 tags: N2N
 categories: 
-- [软件/插件, N2N]
 - [软件/插件, 快速脚本]
 ---
 ## 不只是简单的~~用脚写的~~N2N~~国产垃圾~~小软件！
@@ -15,7 +14,7 @@ categories:
 
 **<font size=5px>因为修改网卡需要管理员权限，请先将n2n-client.exe和edge.exe任意一个设置为用管理员权限运行（自行百度）</font>**
 
-* 项目基于[n2n](https://github.com/ntop/n2n)以及python3.9.5和TAP虚拟网卡
+* 项目基于[n2n](https://github.com/ntop/n2n)以及python3.9.5（v1.0.3+ -> python3.10.4）和TAP虚拟网卡
 
 * 实测腾讯云上海节点在新加坡延迟和大陆差不多（测试环境：Tabletop Simulator / Minecraft）
 
@@ -81,5 +80,5 @@ categories:
 <br><br><br>
 我们并不知道这个项目会不会像以前的许多项目一样因为各种各样的原因半路夭折，比如来自现实和工作的压力，比如自身能力的不足，但至少在现在的时间点，我们还保持着热血，还能趁着年少，去做自己喜爱的事情。
 
-<center>狐日泽&高橋はるき 2022.05.04.</center>
+<center>狐日泽&高橋はるき 2022.05.30.</center>
 

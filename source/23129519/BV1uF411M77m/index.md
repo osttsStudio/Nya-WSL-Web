@@ -1,6 +1,6 @@
 ---
 title: 老师，我还没有做好准备呢！
-cover: bg.jpg
+cover: ../bg.jpg
 dplayer: true
 ---
 

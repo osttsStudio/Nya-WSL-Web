@@ -1,6 +1,6 @@
 ---
 title: 可 可 爱 爱 没 有 脑 袋 ！
-cover: bg.jpg
+cover: ../bg.jpg
 dplayer: true
 ---
 

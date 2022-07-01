@@ -141,3 +141,87 @@ B站主页：[钥钥K](https://space.bilibili.com/1694679451) | 直播间地址�
     cover="https://nya-wsl.osttsstudio.ltd/23129519/今天也是爱你的一天.jpg"
     artist="钥钥K"
 %}
+
+<details>
+<summary>【重返未来1999】我的职员编号是......</summary>
+
+  > [bilibili](https://www.bilibili.com/video/BV13Y411u7rm) | [Local](https://nya-wsl.osttsstudio.ltd/23129519/我的职员编号是.mp4) | [Nya-WSL](https://nya-wsl.com/23129519/BV13Y411u7rm)
+</details>
+  {%  aplayer
+    url="https://nya-wsl.osttsstudio.ltd/23129519/我的职员编号是.mp3"
+    name="【重返未来1999】我的职员编号是......"
+    cover="https://nya-wsl.osttsstudio.ltd/23129519/我的职员编号是.jpg"
+    artist="钥钥K"
+%}
+
+<details>
+<summary>老师...有需要的话_请务必随时来图书馆找我</summary>
+
+  > [bilibili](https://www.bilibili.com/video/BV1va411j7ht) | [Local](https://nya-wsl.osttsstudio.ltd/23129519/老师...有需要的话_请务必随时来图书馆找我.mp4) | [Nya-WSL](https://nya-wsl.com/23129519/BV1va411j7ht)
+</details>
+  {%  aplayer
+    url="https://nya-wsl.osttsstudio.ltd/23129519/老师...有需要的话_请务必随时来图书馆找我.mp3"
+    name="老师...有需要的话_请务必随时来图书馆找我......"
+    cover="https://nya-wsl.osttsstudio.ltd/23129519/老师...有需要的话_请务必随时来图书馆找我.jpg"
+    artist="钥钥K"
+%}
+
+<details>
+<summary>这个秘密...就算是老师也不能说...</summary>
+
+  > [bilibili](https://www.bilibili.com/video/BV1sv4y137Jx) | [Local](https://nya-wsl.osttsstudio.ltd/23129519/这个秘密...就算是老师也不能说.mp4) | [Nya-WSL](https://nya-wsl.com/23129519/BV1sv4y137Jx)
+</details>
+  {%  aplayer
+    url="https://nya-wsl.osttsstudio.ltd/23129519/这个秘密...就算是老师也不能说.mp3"
+    name="这个秘密...就算是老师也不能说..."
+    cover="https://nya-wsl.osttsstudio.ltd/23129519/这个秘密...就算是老师也不能说.jpg"
+    artist="钥钥K"
+%}
+
+<details>
+<summary>约尔太太入驻B站</summary>
+
+  > [bilibili](https://www.bilibili.com/video/BV1UA4y1d7fK) | [Local](https://nya-wsl.osttsstudio.ltd/23129519/约尔太太入驻B站.mp4) | [Nya-WSL](https://nya-wsl.com/23129519/BV1UA4y1d7fK)
+</details>
+  {%  aplayer
+    url="https://nya-wsl.osttsstudio.ltd/23129519/约尔太太入驻B站.mp3"
+    name="约尔太太入驻B站"
+    cover="https://nya-wsl.osttsstudio.ltd/23129519/约尔太太入驻B站.jpg"
+    artist="钥钥K"
+%}
+
+<details>
+<summary>我又来配约尔太太啦！福杰夫妇cp向配音！</summary>
+
+  > [bilibili](https://www.bilibili.com/video/BV1ZT411V7dh) | [Local](https://nya-wsl.osttsstudio.ltd/23129519/我又来配约尔太太啦！福杰夫妇cp向配音！.mp4) | [Nya-WSL](https://nya-wsl.com/23129519/BV1ZT411V7dh)
+</details>
+  {%  aplayer
+    url="https://nya-wsl.osttsstudio.ltd/23129519/我又来配约尔太太啦！福杰夫妇cp向配音！.mp3"
+    name="我又来配约尔太太啦！福杰夫妇cp向配音！"
+    cover="https://nya-wsl.osttsstudio.ltd/23129519/我又来配约尔太太啦！福杰夫妇cp向配音！.jpg"
+    artist="钥钥K"
+%}
+
+<details>
+<summary>约尔手机提示音！进来领取早安之吻吧！</summary>
+
+  > [bilibili](https://www.bilibili.com/video/BV1HS4y1i7B9) | [Local](https://nya-wsl.osttsstudio.ltd/23129519/%E7%BA%A6%E5%B0%94%E6%89%8B%E6%9C%BA%E6%8F%90%E7%A4%BA%E9%9F%B3%EF%BC%81.mp4) | [Nya-WSL](https://nya-wsl.com/23129519/BV1HS4y1i7B9)
+</details>
+  {%  aplayer
+    url="https://nya-wsl.osttsstudio.ltd/23129519/%E7%BA%A6%E5%B0%94%E6%89%8B%E6%9C%BA%E6%8F%90%E7%A4%BA%E9%9F%B3%EF%BC%81.mp3"
+    name="约尔手机提示音！进来领取早安之吻吧！"
+    cover="https://nya-wsl.osttsstudio.ltd/23129519/%E7%BA%A6%E5%B0%94%E6%89%8B%E6%9C%BA%E6%8F%90%E7%A4%BA%E9%9F%B3%EF%BC%81.jpg"
+    artist="钥钥K"
+%}
+
+<details>
+<summary>老师，下次能多教我一些嘛...</summary>
+
+  > [bilibili](https://www.bilibili.com/video/BV1HY4y1g78A) | [Local](https://nya-wsl.osttsstudio.ltd/23129519/老师，下次能多教我一些嘛.mp4) | [Nya-WSL](https://nya-wsl.com/23129519/BV1HY4y1g78A)
+</details>
+  {%  aplayer
+    url="https://nya-wsl.osttsstudio.ltd/23129519/老师，下次能多教我一些嘛.mp3"
+    name="老师，下次能多教我一些嘛..."
+    cover="https://nya-wsl.osttsstudio.ltd/23129519/老师，下次能多教我一些嘛.jpg"
+    artist="钥钥K"
+%}

@@ -1,6 +1,6 @@
 ---
 title: Coser女友能有什么坏心思…
-cover: bg.jpg
+cover: ../bg.jpg
 dplayer: true
 ---
 

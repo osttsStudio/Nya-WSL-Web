@@ -1,6 +1,6 @@
 ---
 title: 老师，我没有做奇怪的事情！你不要想歪啦！
-cover: bg.jpg
+cover: ../bg.jpg
 dplayer: true
 ---
 

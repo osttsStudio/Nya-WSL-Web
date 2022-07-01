@@ -23,4 +23,6 @@ B站主页：[羽月ちい](https://space.bilibili.com/1694679451)
 [bilibili-CN-成都](http://chii.osttsstudio.ltd/files/bilibili/) | [bilibili-CN-香港](http://hk.osttsstudio.ltd/files/bilibili/)
 
 [404-CN-成都](http://chii.osttsstudio.ltd/files/404/) | [404-CN-香港](http://hk.osttsstudio.ltd/files/bilibili/)
+
+[bilbili-CN-浅律Asaritsu](http://chii.osttsstudio.ltd/555)
 </center>

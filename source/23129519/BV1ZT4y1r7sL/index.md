@@ -1,6 +1,6 @@
 ---
 title: 老师，请不要再恶作剧了…
-cover: bg.jpg
+cover: ../bg.jpg
 dplayer: true
 ---
 

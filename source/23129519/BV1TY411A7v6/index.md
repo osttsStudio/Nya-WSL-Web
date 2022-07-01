@@ -1,6 +1,6 @@
 ---
 title: 她 可 真 是 太 懂 大 家 了
-cover: bg.jpg
+cover: ../bg.jpg
 dplayer: true
 ---
 

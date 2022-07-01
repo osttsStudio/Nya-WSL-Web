@@ -1,6 +1,6 @@
 ---
 title: 老师，要乖乖躺好哦❣
-cover: bg.jpg
+cover: ../bg.jpg
 dplayer: true
 ---
 

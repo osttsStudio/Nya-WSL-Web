@@ -1,6 +1,6 @@
 ---
 title: 今天也是爱你的一天~
-cover: bg.jpg
+cover: ../bg.jpg
 dplayer: true
 ---
 

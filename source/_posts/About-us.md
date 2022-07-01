@@ -11,7 +11,7 @@ B站主页：[高橋はるき的个人空间-bilibili](https://space.bilibili.co
 
 GitHub：[Nya-WSL - GitHub](https://github.com/nya-wsl/) | [osttsStudio - GitHub](https://github.com/osttsStudio/)
 
-不定时更新一些超实用(用脚写)的小插件以及手册。同时也会为字幕组提供录播入口、rtmp转播等服务。
+不定时更新一些超实用~~(用脚写)~~的小插件以及手册。同时也会为字幕组提供录播入口、rtmp转播等服务。
 
 
 

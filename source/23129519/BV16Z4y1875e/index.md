@@ -1,6 +1,6 @@
 ---
 title: 老师...你能不能帮帮我...
-cover: bg.jpg
+cover: ../bg.jpg
 dplayer: true
 ---
 

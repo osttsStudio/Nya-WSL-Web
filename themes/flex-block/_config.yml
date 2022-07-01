@@ -4,9 +4,9 @@ menu:
   このサイトについて/About Us: /About-us/
 
 # 主页banner图
-banner: https://pbs.twimg.com/media/EvYoiuDVIAQ86lr?format=jpg&name=large
-# 站点通知信息
-notice: 高橋はるき&狐日泽.2022-05.
+banner: /index.jpg
+notice: 服务器已迁移至东京，延迟可能增高
+# notice: 高橋はるき&狐日泽.2022-05.
 
 # 作者信息
 author:

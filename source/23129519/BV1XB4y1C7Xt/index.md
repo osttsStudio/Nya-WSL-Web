@@ -1,6 +1,6 @@
 ---
 title: 如果是老师的话，也不是不行…
-cover: bg.jpg
+cover: ../bg.jpg
 dplayer: true
 ---
 
