@@ -261,3 +261,15 @@ B站主页：[钥钥K](https://space.bilibili.com/1694679451) | 直播间地址�
     cover="https://nya-wsl.osttsstudio.ltd/23129519/%E8%80%81%E5%B8%88%EF%BC%8C%E8%AF%B7%E4%B8%8D%E8%A6%81%E7%A6%BB%E5%BC%80%E6%88%91%E7%9A%84%E8%A7%86%E7%BA%BF.jpg"
     artist="钥钥K"
 %}
+<details>
+<summary>小拉姬叫我起床了...嘿嘿...美游生日快乐！</summary>
+
+  > [bilibili](https://www.bilibili.com/video/BV12B4y1e7vL) | [Local](https://nya-wsl.osttsstudio.ltd/23129519/小拉姬叫我起床了.mp4) | [Nya-WSL](https://nya-wsl.com/23129519/BV12B4y1e7vL)
+</details>
+  {%  aplayer
+    url="https://nya-wsl.osttsstudio.ltd/23129519/小拉姬叫我起床了.mp3"
+    name="小拉姬叫我起床了...嘿嘿...美游生日快乐！"
+    cover="https://nya-wsl.osttsstudio.ltd/23129519/小拉姬叫我起床了.jpg"
+    artist="钥钥K"
+%}
+

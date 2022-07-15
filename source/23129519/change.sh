@@ -34,6 +34,6 @@ dplayer: true
 ## $TITLE
 
 {%  dplayer
-    url="https://nya-wsl.osttsstudio.ltd/23129519/$filename"
+    url="https://nya-wsl.osttsstudio.ltd/23129519/$filename.mp4"
 %}
 EOF_BV
