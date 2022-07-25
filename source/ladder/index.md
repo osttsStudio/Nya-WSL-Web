@@ -2,6 +2,7 @@
 layout: messages
 title: ladder
 subtitle: "不畏浮云遮望眼 金睛如炬耀苍穹"
+cover: no-cover
 aplayer: true
 comments: true
 ---
