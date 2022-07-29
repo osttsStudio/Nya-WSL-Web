@@ -37,3 +37,7 @@ dplayer: true
     url="https://nya-wsl.osttsstudio.ltd/23129519/$filename.mp4"
 %}
 EOF_BV
+
+# qshell rename osttsstudio $filename.mp4 23129519/$filename.mp4
+# qshell rename osttsstudio $filename.jpg 23129519/$filename.jpg
+# qshell rename osttsstudio $filename.mp3 23129519/$filename.mp3
