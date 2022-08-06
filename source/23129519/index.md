@@ -1,7 +1,7 @@
 ---
 layout: messages
-title: 钥钥K
-subtitle: 喜欢自娱自乐的普通人！ 
+title: 钥钥Kuri
+subtitle: 旅行还在继续... 是虚拟主播，也是配音up主，更是普通人！ 
 cover: bg.jpg
 aplayer: true
 comments: true
@@ -270,6 +270,19 @@ B站主页：[钥钥K](https://space.bilibili.com/1694679451) | 直播间地址�
     url="https://nya-wsl.osttsstudio.ltd/23129519/小拉姬叫我起床了.mp3"
     name="小拉姬叫我起床了...嘿嘿...美游生日快乐！"
     cover="https://nya-wsl.osttsstudio.ltd/23129519/小拉姬叫我起床了.jpg"
+    artist="钥钥K"
+%}
+
+
+<details>
+<summary>我居然在今天收到了爱莉的约会邀请！？</summary>
+
+  > [bilibili](https://www.bilibili.com/video/BV1EW4y117xA) | [Local](https://nya-wsl.osttsstudio.ltd/23129519/我居然在今天收到了爱莉的约会邀请！？.mp4) | [Nya-WSL](https://nya-wsl.com/23129519/BV1EW4y117xA)
+</details>
+  {%  aplayer
+    url="https://nya-wsl.osttsstudio.ltd/23129519/我居然在今天收到了爱莉的约会邀请！？.mp3"
+    name="我居然在今天收到了爱莉的约会邀请！？"
+    cover="https://nya-wsl.osttsstudio.ltd/23129519/我居然在今天收到了爱莉的约会邀请！？.jpg"
     artist="钥钥K"
 %}
 
