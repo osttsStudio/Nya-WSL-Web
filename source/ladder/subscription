@@ -1,6 +1,7 @@
 #---------------------------------------------------#
-## 更新：2022-07-26 v1.3beta
+## 更新：2022-07-26 v1.4beta
 ## 针对b站ip属地显示进行优化。
+## 取消cocloud接入。
 #---------------------------------------------------#
 
 # HTTP 代理端口
@@ -33,47 +34,6 @@ secret: ''
 
 
 proxies:
-  - {"name":"台湾 -L2|湘联|01","type":"ssr","server":"116.129.254.111","port":1316,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"台湾 -L2|湘联|02","type":"ssr","server":"116.129.254.111","port":1363,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"台湾 -L2|湘联|03","type":"ssr","server":"116.129.254.111","port":1362,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"台湾 -L2|粤联|01","type":"ssr","server":"111.45.31.139","port":3434,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"台湾 -L2|粤联|02","type":"ssr","server":"111.45.31.139","port":3439,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"台湾 -L2|粤联|03","type":"ssr","server":"111.45.31.139","port":3383,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"台湾 -L2|粤联|04","type":"ssr","server":"111.45.31.139","port":3382,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"新加坡 -L2|粤移 |01","type":"ssr","server":"111.45.31.139","port":1400,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"新加坡 -L2|粤移 |02","type":"ssr","server":"111.45.31.139","port":1401,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"新加坡 -L2|粤移 |03","type":"ssr","server":"111.45.31.139","port":1402,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"新加坡 -L3|沪新专线A","type":"ssr","server":"116.129.253.175","port":4400,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"日本 -L2|湘移|01","type":"ssr","server":"116.129.254.111","port":2436,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"日本 -L2|湘移|02","type":"ssr","server":"116.129.254.111","port":2437,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"日本 -L2|湘移|03","type":"ssr","server":"116.129.254.111","port":2438,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"日本 -L2|粤移|01","type":"ssr","server":"111.45.31.139","port":3400,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"日本 -L2|粤移|02","type":"ssr","server":"111.45.31.139","port":3401,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"日本 -L2|粤移|03","type":"ssr","server":"111.45.31.139","port":3402,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"日本 -L3|沪日专线A","type":"ssr","server":"116.129.253.175","port":4500,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"日本 -L3|沪日专线B","type":"ssr","server":"116.129.253.175","port":4501,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"日本 -L3|沪日专线C","type":"ssr","server":"116.129.253.175","port":4502,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"美国 -L1|粤移|01","type":"ssr","server":"111.45.31.139","port":3325,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"美国 -L1|粤移|02","type":"ssr","server":"111.45.31.139","port":3303,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"美国 -L2|湘联|01","type":"ssr","server":"116.129.254.111","port":39028,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"美国 -L2|湘联|02","type":"ssr","server":"116.129.254.111","port":39027,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"美国 -L2|湘联|03","type":"ssr","server":"116.129.254.111","port":39026,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"美国 -L3|沪美专线A","type":"ssr","server":"116.129.253.175","port":4403,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"美国 -L3|沪美专线B","type":"ssr","server":"116.129.253.175","port":4404,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"美国 -L3|沪美专线C","type":"ssr","server":"116.129.253.175","port":4405,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"韩国 -L3|沪韩专线A","type":"ssr","server":"116.129.253.175","port":4411,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"韩国 -L3|沪韩专线B","type":"ssr","server":"116.129.253.175","port":4412,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"香港 -L2|湘联|01","type":"ssr","server":"116.129.254.111","port":1406,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"香港 -L2|湘联|02","type":"ssr","server":"116.129.254.111","port":1407,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"香港 -L2|湘联|03","type":"ssr","server":"116.129.254.111","port":1430,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"香港 -L2|湘联|04","type":"ssr","server":"116.129.254.111","port":1429,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"香港 -L3|沪港专线A","type":"ssr","server":"116.129.253.175","port":4491,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"香港 -L3|沪港专线B","type":"ssr","server":"116.129.253.175","port":4490,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"香港 -L3|沪港专线C","type":"ssr","server":"183.232.202.85","port":4407,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"香港 -L3|沪港专线D","type":"ssr","server":"183.232.202.85","port":4408,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"香港 -L3|沪港专线E","type":"ssr","server":"183.232.202.85","port":4409,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"香港 -L3|沪港专线F","type":"ssr","server":"183.232.202.85","port":3433,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
-  - {"name":"香港 -L3|沪港专线G","type":"ssr","server":"183.232.202.85","port":3434,"cipher":"rc4-md5","password":"ybYNwh","protocol":"auth_aes128_sha1","protocol-param":"198119:rxcSA4","obfs":"plain","obfs-param":"88b73198119.wns.windows.com","udp":true}
   - {"name":"🇯🇵 日本东京-TencentCloud","type":"ssr","server":"43.128.232.17","port":"7777","cipher":"aes-128-ctr","password":"haruki","protocol":"auth_sha1_v4","obfs":"plain","protocol-param":"","obfs-param":"","udp":true}
   - {"name":"🇨🇳 中国北京-TencentCloud","type":"ssr","server":"101.43.136.111","port":"2333","cipher":"aes-128-ctr","password":"osttsStudio","protocol":"auth_sha1_v4","obfs":"plain","protocol-param":"","obfs-param":"","udp":true}
   - {"name":"🇭🇰 中国香港-Aliyun","type":"ssr","server":"8.210.227.61","port":"7777","cipher":"aes-128-ctr","password":"osttsStudio","protocol":"auth_sha1_v4","obfs":"plain","protocol-param":"","obfs-param":"","udp":true}
@@ -82,47 +42,6 @@ proxy-groups:
   name: Proxy
   type: select
   proxies:
-    - '台湾 -L2|湘联|01'
-    - '台湾 -L2|湘联|02'
-    - '台湾 -L2|湘联|03'
-    - '台湾 -L2|粤联|01'
-    - '台湾 -L2|粤联|02'
-    - '台湾 -L2|粤联|03'
-    - '台湾 -L2|粤联|04'
-    - '新加坡 -L2|粤移 |01'
-    - '新加坡 -L2|粤移 |02'
-    - '新加坡 -L2|粤移 |03'
-    - '新加坡 -L3|沪新专线A'
-    - '日本 -L2|湘移|01'
-    - '日本 -L2|湘移|02'
-    - '日本 -L2|湘移|03'
-    - '日本 -L2|粤移|01'
-    - '日本 -L2|粤移|02'
-    - '日本 -L2|粤移|03'
-    - '日本 -L3|沪日专线A'
-    - '日本 -L3|沪日专线B'
-    - '日本 -L3|沪日专线C'
-    - '美国 -L1|粤移|01'
-    - '美国 -L1|粤移|02'
-    - '美国 -L2|湘联|01'
-    - '美国 -L2|湘联|02'
-    - '美国 -L2|湘联|03'
-    - '美国 -L3|沪美专线A'
-    - '美国 -L3|沪美专线B'
-    - '美国 -L3|沪美专线C'
-    - '韩国 -L3|沪韩专线A'
-    - '韩国 -L3|沪韩专线B'
-    - '香港 -L2|湘联|01'
-    - '香港 -L2|湘联|02'
-    - '香港 -L2|湘联|03'
-    - '香港 -L2|湘联|04'
-    - '香港 -L3|沪港专线A'
-    - '香港 -L3|沪港专线B'
-    - '香港 -L3|沪港专线C'
-    - '香港 -L3|沪港专线D'
-    - '香港 -L3|沪港专线E'
-    - '香港 -L3|沪港专线F'
-    - '香港 -L3|沪港专线G'
     - '🇯🇵 日本东京-TencentCloud'
     - '🇨🇳 中国北京-TencentCloud'
     - '🇭🇰 中国香港-Aliyun'
