@@ -36,6 +36,7 @@ secret: ''
 proxies:
   - {"name":"🇯🇵 日本东京-TencentCloud","type":"ssr","server":"43.128.232.17","port":"7777","cipher":"aes-128-ctr","password":"haruki","protocol":"auth_sha1_v4","obfs":"plain","protocol-param":"","obfs-param":"","udp":true}
   - {"name":"🇨🇳 中国北京-TencentCloud","type":"ssr","server":"101.43.136.111","port":"2333","cipher":"aes-128-ctr","password":"osttsStudio","protocol":"auth_sha1_v4","obfs":"plain","protocol-param":"","obfs-param":"","udp":true}
+  - {"name":"🇭🇰 中国香港-Nya-WSL","type":"ssr","server":"47.242.182.105","port":"7777","cipher":"aes-128-ctr","password":"haruki","protocol":"auth_sha1_v4","obfs":"plain","protocol-param":"","obfs-param":"","udp":true}
   - {"name":"🇭🇰 中国香港-Aliyun","type":"ssr","server":"8.210.227.61","port":"7777","cipher":"aes-128-ctr","password":"osttsStudio","protocol":"auth_sha1_v4","obfs":"plain","protocol-param":"","obfs-param":"","udp":true}
 proxy-groups:
 -
@@ -44,6 +45,7 @@ proxy-groups:
   proxies:
     - '🇯🇵 日本东京-TencentCloud'
     - '🇨🇳 中国北京-TencentCloud'
+    - '🇭🇰 中国香港-Nya-WSL'
     - '🇭🇰 中国香港-Aliyun'
 -
   name: Domestic
