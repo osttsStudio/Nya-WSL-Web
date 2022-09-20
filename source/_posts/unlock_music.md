@@ -1,6 +1,6 @@
 ---
 title: 移除已购音乐的加密保护
-cover: https://pbs.twimg.com/media/FONK8zZVUAUu7Lu?format=jpg&name=large
+cover: 
 toc: 1
 tags: unlock
 categories: 
