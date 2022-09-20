@@ -8,6 +8,8 @@ layout: messages
 
 <center>
 
+# 🎂🎂🎂桑姨一周年快乐🎂🎂🎂
+
 [主页](https://nya-wsl.com/6723413/game/Sage_Travels) | [GitHub](https://github.com/Nya-WSL/word-game-sage)
 
 ### CG
