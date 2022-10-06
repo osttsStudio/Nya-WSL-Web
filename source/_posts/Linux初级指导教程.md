@@ -2,6 +2,7 @@
 title: Linux初级指导教程
 subtitle: 快速入门Linux，从入门到删库（bushi
 cover: /images/Linux初级指导教程/Linux.jpg
+date: 2022/06/30 00:00
 toc: 0
 tags: Linux
 categories: 

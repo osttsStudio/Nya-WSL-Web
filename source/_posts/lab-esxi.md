@@ -2,6 +2,7 @@
 title: 云计算工作室-私有云虚拟环境平台
 subtitle: 减轻笔记本负担，实现高效运维(｀・ω・´)
 cover: /images/esxi/esxi.png
+date: 2022/07/01 00:00
 toc: 0
 tags: 虚拟化
 categories: 
