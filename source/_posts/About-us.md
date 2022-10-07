@@ -15,4 +15,4 @@ GitHub：[Nya-WSL - GitHub](https://github.com/nya-wsl/) | [osttsStudio - GitHub
 
 
 
-联系邮箱：nya-wsl.miaowsl.com.work
+联系邮箱：support@nya-wsl.com
