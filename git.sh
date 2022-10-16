@@ -5,7 +5,7 @@ cp -r /etc/nginx/sites-available/default /opt/Nya-WSL-Web-Private/nginx_conf
 
 function git_command {
 git add .
-git commit -am "update"
+git commit -am "change"
 git push
 }
 
