@@ -1,6 +1,6 @@
 ---
 title: Down By The Salley Gardens
-cover: bg.jpg
+cover: ../bg.PNG
 dplayer: true
 ---
 

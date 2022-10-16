@@ -17,4 +17,4 @@ B站主页：[钥钥K](https://space.bilibili.com/1694679451) | 直播间地址�
 
 ## 录播
 
-[试播](https://rec.key.osttsstudio.ltd/files/试播/) | [出道前](https://rec.key.osttsstudio.ltd/files/出道前/) | [出道](https://rec.key.osttsstudio.ltd/files/出道/)
+[Nya-WSL 云服务](https://cloud.osttsstudio.ltd/sftp/23129519-钥钥Kuri)

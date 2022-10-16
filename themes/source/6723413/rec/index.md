@@ -2,7 +2,7 @@
 layout: messages
 title: 桑吉Sage
 subtitle:  资本家聚集地（√
-cover: ../bg.jpg
+cover: ../bg.PNG
 aplayer: true
 comments: true
 ---

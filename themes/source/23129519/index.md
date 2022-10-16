@@ -1,7 +1,7 @@
 ---
 layout: messages
-title: 钥钥K
-subtitle: 喜欢自娱自乐的普通人！ 
+title: 钥钥Kuri
+subtitle: 旅行还在继续... 是虚拟主播，也是配音up主，更是普通人！ 
 cover: bg.jpg
 aplayer: true
 comments: true
@@ -225,3 +225,64 @@ B站主页：[钥钥K](https://space.bilibili.com/1694679451) | 直播间地址�
     cover="https://nya-wsl.osttsstudio.ltd/23129519/老师，下次能多教我一些嘛.jpg"
     artist="钥钥K"
 %}
+
+<details>
+<summary>我会好好珍惜的...</summary>
+
+  > [bilibili](https://www.bilibili.com/video/BV1UZ4y1v7JY) | [Local](https://nya-wsl.osttsstudio.ltd/23129519/%E6%88%91%E4%BC%9A%E5%A5%BD%E5%A5%BD%E7%8F%8D%E6%83%9C%E7%9A%84.mp4) | [Nya-WSL](https://nya-wsl.com/23129519/BV1UZ4y1v7JY)
+</details>
+  {%  aplayer
+    url="https://nya-wsl.osttsstudio.ltd/23129519/我会好好珍惜的.mp3"
+    name="我会好好珍惜的..."
+    cover="https://nya-wsl.osttsstudio.ltd/23129519/我会好好珍惜的.jpg"
+    artist="钥钥K"
+%}
+
+<details>
+<summary>【次瓜提示音】前方高甜！！太优雅啦~...</summary>
+
+  > [bilibili](https://www.bilibili.com/video/BV1cf4y1Z7YD) | [Local](https://nya-wsl.osttsstudio.ltd/23129519/前方高甜！！太优雅啦.mp4) | [Nya-WSL](https://nya-wsl.com/23129519/BV1cf4y1Z7YD)
+</details>
+  {%  aplayer
+    url="https://nya-wsl.osttsstudio.ltd/23129519/前方高甜！！太优雅啦.mp3"
+    name="【次瓜提示音】前方高甜！！太优雅啦~..."
+    cover="https://nya-wsl.osttsstudio.ltd/23129519/前方高甜！！太优雅啦.jpg"
+    artist="钥钥K"
+%}
+
+<details>
+<summary>老师，请不要离开我的视线...</summary>
+
+  > [bilibili](https://www.bilibili.com/video/BV18U4y1q74v) | [Local](https://nya-wsl.osttsstudio.ltd/23129519/%E8%80%81%E5%B8%88%EF%BC%8C%E8%AF%B7%E4%B8%8D%E8%A6%81%E7%A6%BB%E5%BC%80%E6%88%91%E7%9A%84%E8%A7%86%E7%BA%BF.mp4) | [Nya-WSL](https://nya-wsl.com/23129519/BV18U4y1q74v)
+</details>
+  {%  aplayer
+    url="https://nya-wsl.osttsstudio.ltd/23129519/%E8%80%81%E5%B8%88%EF%BC%8C%E8%AF%B7%E4%B8%8D%E8%A6%81%E7%A6%BB%E5%BC%80%E6%88%91%E7%9A%84%E8%A7%86%E7%BA%BF.mp3"
+    name="老师，请不要离开我的视线..."
+    cover="https://nya-wsl.osttsstudio.ltd/23129519/%E8%80%81%E5%B8%88%EF%BC%8C%E8%AF%B7%E4%B8%8D%E8%A6%81%E7%A6%BB%E5%BC%80%E6%88%91%E7%9A%84%E8%A7%86%E7%BA%BF.jpg"
+    artist="钥钥K"
+%}
+<details>
+<summary>小拉姬叫我起床了...嘿嘿...美游生日快乐！</summary>
+
+  > [bilibili](https://www.bilibili.com/video/BV12B4y1e7vL) | [Local](https://nya-wsl.osttsstudio.ltd/23129519/小拉姬叫我起床了.mp4) | [Nya-WSL](https://nya-wsl.com/23129519/BV12B4y1e7vL)
+</details>
+  {%  aplayer
+    url="https://nya-wsl.osttsstudio.ltd/23129519/小拉姬叫我起床了.mp3"
+    name="小拉姬叫我起床了...嘿嘿...美游生日快乐！"
+    cover="https://nya-wsl.osttsstudio.ltd/23129519/小拉姬叫我起床了.jpg"
+    artist="钥钥K"
+%}
+
+
+<details>
+<summary>我居然在今天收到了爱莉的约会邀请！？</summary>
+
+  > [bilibili](https://www.bilibili.com/video/BV1EW4y117xA) | [Local](https://nya-wsl.osttsstudio.ltd/23129519/我居然在今天收到了爱莉的约会邀请！？.mp4) | [Nya-WSL](https://nya-wsl.com/23129519/BV1EW4y117xA)
+</details>
+  {%  aplayer
+    url="https://nya-wsl.osttsstudio.ltd/23129519/我居然在今天收到了爱莉的约会邀请！？.mp3"
+    name="我居然在今天收到了爱莉的约会邀请！？"
+    cover="https://nya-wsl.osttsstudio.ltd/23129519/我居然在今天收到了爱莉的约会邀请！？.jpg"
+    artist="钥钥K"
+%}
+

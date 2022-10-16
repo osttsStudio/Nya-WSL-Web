@@ -1,6 +1,6 @@
 ---
 title: 如何关闭Minecraft-BE win10版的自动更新
-cover: 
+cover: /images/stop-mcbe-update/Mangrove_House.png
 toc: 1
 tags: Microsoft
 categories: 

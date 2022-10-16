@@ -1,6 +1,6 @@
 ---
 title: 斯卡布罗集市，让修女抚平你的烦躁
-cover: bg.jpg
+cover: ../bg.PNG
 dplayer: true
 ---
 

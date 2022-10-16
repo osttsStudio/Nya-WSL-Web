@@ -1,7 +1,7 @@
 ---
 title: 桑吉Sage
 subtitle: 前神话生物，现打工修女。
-cover: bg.jpg
+cover: bg.PNG
 aplayer: true
 layout: messages
 ---
