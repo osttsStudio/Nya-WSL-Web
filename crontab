@@ -1,2 +1,1 @@
 0 6 * * * root /opt/hexo/git.sh all >> "/home/cron/cron.log 2>&1
-
