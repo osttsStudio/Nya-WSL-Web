@@ -44,3 +44,15 @@ B站主页：[桑吉Sage](https://space.bilibili.com/106415) | 直播间地址�
     cover="https://nya-wsl.osttsstudio.ltd/6723413/Down%20By%20The%20Salley%20Gardens.jpg"
     artist="桑吉Sage"
 %}
+
+<details>
+<summary>壊レタ世界ノ歌</summary>
+
+> [bilibili](https://www.bilibili.com/video/BV18G411g77C) | [Local](https://nya-wsl.osttsstudio.ltd/6723413/Weight%20of%20the%20World.mp4) | [Nya-WSL](https://nya-wsl.com/6723413/BV18G411g77C)
+</details>
+{%  aplayer
+    url="https://nya-wsl.osttsstudio.ltd/6723413/Weight%20of%20the%20World.mp3"
+    name="壊レタ世界ノ歌"
+    cover="https://nya-wsl.osttsstudio.ltd/6723413/Weight%20of%20the%20World.jpg"
+    artist="桑吉Sage"
+%}
