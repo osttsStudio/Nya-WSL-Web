@@ -7,7 +7,7 @@ toc: 1
 # Nya-WSL Minecraft服务   桑吉Sage专用服务器
 ### Minecraft客户端下载地址:
 
-[WindowsUWP](https://mc.osttsstudio.ltd/mcbe/MinecraftUWP_1.18.31_x64.Appx)
+[WindowsUWP](https://mc.osttsstudio.ltd/mcbe/MinecraftUWP_1.18.31_x64.Appx) | [Android](https://mc.osttsstudio.ltd/mcbe/mcbe.apk)
 
 ---
 ### 服务器域名:
@@ -20,12 +20,12 @@ sage-mc.osttsstudio.ltd:19132
 ### 支持的版本号：
 | 客户端类型      | 可用的版本号          |
 | --------------- | --------------------- |
-| WindowsUWP      | 2.1.18.3104.0         |
-| Nintendo Switch | 1.18.31-1.18.33       |
-| Android         | 1.18.30.04-1.18.32.04 |
 | iOS             | 1.18.30-1.18.31       |
 | Xbox            | 1.18.31               |
+| Android         | 1.18.30.04-1.18.32.04 |
 | PlayStation     | 2.40-2.41             |
+| WindowsUWP      | 2.1.18.3104.0         |
+| Nintendo Switch | 1.18.31-1.18.33       |
 
 ---
 
