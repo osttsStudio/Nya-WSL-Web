@@ -1,7 +1,9 @@
 #---------------------------------------------------#
-## 更新：2022-07-26 v1.4beta
+## 更新：2022-11-11 v1.5beta
 ## 针对b站ip属地显示进行优化。
 ## 取消cocloud接入。
+## 因SSR的稳定性与安全性问题，删除所有大陆以外节点。
+## 保留中国大陆节点供回国。
 #---------------------------------------------------#
 
 # HTTP 代理端口
@@ -34,19 +36,17 @@ secret: ''
 
 
 proxies:
-  - {"name":"🇯🇵 日本东京-TencentCloud","type":"ssr","server":"43.128.232.17","port":"7777","cipher":"aes-128-ctr","password":"haruki","protocol":"auth_sha1_v4","obfs":"plain","protocol-param":"","obfs-param":"","udp":true}
+  - {"name":"🇨🇳 中国上海-TencentCloud","type":"ssr","server":"150.158.171.157","port":"2333","cipher":"aes-128-ctr","password":"nyawsl","protocol":"auth_sha1_v4","obfs":"plain","protocol-param":"","obfs-param":"","udp":true}
   - {"name":"🇨🇳 中国北京-TencentCloud","type":"ssr","server":"101.43.136.111","port":"2333","cipher":"aes-128-ctr","password":"osttsStudio","protocol":"auth_sha1_v4","obfs":"plain","protocol-param":"","obfs-param":"","udp":true}
-  - {"name":"🇭🇰 中国香港-Nya-WSL","type":"ssr","server":"47.242.182.105","port":"7777","cipher":"aes-128-ctr","password":"haruki","protocol":"auth_sha1_v4","obfs":"plain","protocol-param":"","obfs-param":"","udp":true}
-  - {"name":"🇭🇰 中国香港-Aliyun","type":"ssr","server":"8.210.227.61","port":"7777","cipher":"aes-128-ctr","password":"osttsStudio","protocol":"auth_sha1_v4","obfs":"plain","protocol-param":"","obfs-param":"","udp":true}
+  
 proxy-groups:
 -
   name: Proxy
   type: select
   proxies:
-    - '🇯🇵 日本东京-TencentCloud'
+    - '🇨🇳 中国上海-TencentCloud'
     - '🇨🇳 中国北京-TencentCloud'
-    - '🇭🇰 中国香港-Nya-WSL'
-    - '🇭🇰 中国香港-Aliyun'
+
 -
   name: Domestic
   type: select
